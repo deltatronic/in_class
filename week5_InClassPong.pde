@@ -108,7 +108,7 @@ class Paddle {
   void draw() {
     noStroke();
     rect(x, y, w, h);
-    fill(255);
+    fill(0);
   }
 
   void move() {
@@ -146,7 +146,7 @@ void drawScores() {
 }
 
 void draw() {
-  background(0);
+  background(255);
 
   for (int i = 0; i < list.size(); i += 1) {
     list.get(i).draw();
